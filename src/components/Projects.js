@@ -13,8 +13,8 @@ export default function Projects() {
       name: "Notes Managing App",
       technologies: "MongoDB - Express - React - Node.js",
       details: "A cloud based notes managing app for user specific notes.",
-      github: "url",
-      netlify: "url",
+      github: "https://github.com/piyush-anand-vyas/iNotebook-backend.git",
+      netlify: "https://notes-managing-app.netlify.app/",
     },
   ];
   return (

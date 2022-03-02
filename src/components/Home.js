@@ -1,11 +1,9 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 import {GoMail} from 'react-icons/go';
 import {AiFillLinkedin} from 'react-icons/ai';
 import {FaPhoneSquareAlt} from 'react-icons/fa';
 
 export default function Home() {
-  const history = useHistory();
   const resumeLink = "https://drive.google.com/file/d/13kZyZpxD0X1nZp5M9xeontyXmsMjLCeU/view?usp=sharing";
   return (
     <div className="container">
@@ -54,7 +52,7 @@ export default function Home() {
             <div class="card-body">
             <h5 class="card-title"><AiFillLinkedin fontSize="2em"/></h5>
               <h5 class="card-title">Linkedin</h5>
-              <a href="https://www.linkedin.com/in/piyush-vyas-b608731b8/" target="_blank" class="card-text">View Profile</a>
+              <a href="https://www.linkedin.com/in/piyush-vyas-b608731b8/" target="_blank" rel="noreferrer" class="card-text">View Profile</a>
             </div>
           </div>
         </div>

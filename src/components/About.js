@@ -55,7 +55,7 @@ export default function About() {
             </div>
         </div>
         <div className="col-md-4 mt-5 text-center">
-            <img src="photo.jpg" alt="Profile Photo" heigth="200" width="300"/>
+            <img src="photo.jpg" alt="Profile" heigth="200" width="300"/>
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
     Switch,
     Route
   } from "react-router-dom";
@@ -9,7 +8,6 @@ import Contact from '../../components/Contact';
 import Experience from '../../components/Experience';
 import Home from '../../components/Home';
 import Interests from '../../components/Interests';
-import Navbar from '../../components/Navbar';
 import Projects from '../../components/Projects';
 
 export default function RouteConfig() {
