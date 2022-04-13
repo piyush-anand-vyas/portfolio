@@ -4,7 +4,7 @@ import {AiFillLinkedin} from 'react-icons/ai';
 import {FaPhoneSquareAlt} from 'react-icons/fa';
 
 export default function Home() {
-  const resumeLink = "https://drive.google.com/file/d/13kZyZpxD0X1nZp5M9xeontyXmsMjLCeU/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1IoXm-WHbieZfv6wlT2qHaqcb7tWlaCA5/view?usp=sharing";
   return (
     <div className="container">
       {/* style={{position:"static", minHeigth:"10rem"}}> */}
@@ -15,7 +15,7 @@ export default function Home() {
             <strong>Hey,</strong>
           </h1>
           <h1>
-            <strong>I'm Piyush </strong>
+            <strong style={{color:"#21a3a3"}}>I'm Piyush </strong>
           </h1>
           <h2>I am a Full Stack Developer</h2>
           <br />

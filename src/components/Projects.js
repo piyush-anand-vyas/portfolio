@@ -16,10 +16,24 @@ export default function Projects() {
       github: "https://github.com/piyush-anand-vyas/iNotebook-backend.git",
       netlify: "https://notes-managing-app.netlify.app/",
     },
+    {
+      name: "Money Manager App",
+      technologies: "MongoDB - Express - React - Node.js",
+      details: "View your income and expenses under one application",
+      github: "https://github.com/piyush-anand-vyas/money-manager-backend.git",
+      netlify: "https://manage-money-app.netlify.app/",
+    },
+    {
+      name: "Express Cart App",
+      technologies: "MongoDB - Express - React - Node.js",
+      details: "E-commerce application for online shopping",
+      github: "https://github.com/piyush-anand-vyas/express-cart-backend.git",
+      netlify: "https://express-cart.netlify.app/",
+    }
   ];
   return (
     <div className="container text-start mt-5">
-      <h1>Projects</h1>
+      <h1 style={{color:"#ffc107"}}>Projects</h1>
       <div className="row my-4">
         {projects.length > 0 &&
           projects.map((project) => (

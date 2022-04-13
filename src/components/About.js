@@ -8,7 +8,7 @@ export default function About() {
     <div className="container my-5">
       <div className="row text-start">
         <div className="col-md-8">
-          <h2 className="mb-4">About</h2>
+          <h2 className="mb-4" style={{color:"#ffc107"}}>About</h2>
           {/* <div className="card shadow p-3 mb-5 bg-body rounded"> */}
             {/* <div className="card-body"> */}
               <p>Hello, My name is Piyush Vyas. I am a Computer Engineer from Pune, Maharashtra, India. Currently, I am employed with RBL Bank as a Manager - Technology and Solutions.</p>
@@ -16,7 +16,7 @@ export default function About() {
               <p>Outside of work I like to spend my time playing cricket, swimming and travelling.</p>
             {/* </div> */}
           {/* </div> */}
-          <h2 className="mt-5"> Tech Skills</h2>
+          <h2 className="mt-5" style={{color:"#ffc107"}}> Tech Skills</h2>
           <div className="container mt-4">
           
           
