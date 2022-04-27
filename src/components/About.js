@@ -5,10 +5,10 @@ export default function About() {
     const skills2 = ['Node.js','MYSQL','MongoDB','Oracle'];
     const skills3 = ['Bootstarap','MaterialUI', 'Express','Core Java']
   return (
-    <div className="container my-5">
+    <div id="about" className="container" style={{paddingTop: "5rem"}}>
       <div className="row text-start">
         <div className="col-md-8">
-          <h2 className="mb-4" style={{color:"#ffc107"}}>About</h2>
+          <h2 className="mb-4">About</h2>
           {/* <div className="card shadow p-3 mb-5 bg-body rounded"> */}
             {/* <div className="card-body"> */}
               <p>Hello, My name is Piyush Vyas. I am a Computer Engineer from Pune, Maharashtra, India. Currently, I am employed with RBL Bank as a Manager - Technology and Solutions.</p>
@@ -16,7 +16,7 @@ export default function About() {
               <p>Outside of work I like to spend my time playing cricket, swimming and travelling.</p>
             {/* </div> */}
           {/* </div> */}
-          <h2 className="mt-5" style={{color:"#ffc107"}}> Tech Skills</h2>
+          <h2 className="mt-5"> Tech Skills</h2>
           <div className="container mt-4">
           
           
@@ -26,7 +26,7 @@ export default function About() {
                 skills1.length >0 &&
                 skills1.map((skill) =>(
                     <>
-                    <li>{skill}</li>
+                    <h4><span className="badge rounded-pill bg-warning text-dark">{skill}</span></h4>
                     </>
                 ) )}
             </ul>
@@ -36,7 +36,7 @@ export default function About() {
                 skills2.length >0 &&
                 skills2.map((skill) =>(
                     <>
-                    <li>{skill}</li>
+                    <h4><span className="badge rounded-pill bg-warning text-dark">{skill}</span></h4>
                     </>
                 ) )}
             </ul>
@@ -46,7 +46,7 @@ export default function About() {
                 skills3.length >0 &&
                 skills3.map((skill) =>(
                     <>
-                    <li>{skill}</li>
+                    <h4><span className="badge rounded-pill bg-warning text-dark">{skill}</span></h4>
                     </>
                 ) )}
             </ul>
@@ -55,7 +55,7 @@ export default function About() {
             </div>
         </div>
         <div className="col-md-4 mt-5 text-center">
-            <img src="photo.jpg" alt="Profile" heigth="200" width="300"/>
+            <img className="img-thumbnail" src="photo.jpg" alt="Profile" heigth="200" width="300"/>
         </div>
       </div>
     </div>

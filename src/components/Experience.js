@@ -6,15 +6,13 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import FastfoodIcon from '@mui/icons-material/Fastfood';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import HotelIcon from '@mui/icons-material/Hotel';
-import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 
 export default function Experience() {
   return (
-      <div className="mt-5">
+      <div id="experience" style={{paddingTop: "5rem"}}>
+        <h1 className="mb-5">Experience</h1>
       <div className="d-flex justify-content-center"><img src="rbl-bank-logo.jpg" alt="Rbl logo" height="50" width="50" />
       <h2>RBL Bank</h2></div>
       

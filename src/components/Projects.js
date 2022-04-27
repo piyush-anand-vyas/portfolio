@@ -32,8 +32,8 @@ export default function Projects() {
     }
   ];
   return (
-    <div className="container text-start mt-5">
-      <h1 style={{color:"#ffc107"}}>Projects</h1>
+    <div id="projects" className="container text-start" style={{paddingTop: "5rem"}}>
+      <h1>Projects</h1>
       <div className="row my-4">
         {projects.length > 0 &&
           projects.map((project) => (

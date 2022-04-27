@@ -6,7 +6,7 @@ import {FaPhoneSquareAlt} from 'react-icons/fa';
 export default function Home() {
   const resumeLink = "https://drive.google.com/file/d/1IoXm-WHbieZfv6wlT2qHaqcb7tWlaCA5/view?usp=sharing";
   return (
-    <div className="container">
+    <div id="home" className="container" style={{paddingTop: "5rem"}}>
       {/* style={{position:"static", minHeigth:"10rem"}}> */}
       <div className="row py-5 text-start">
         {/* style={{marginTop: "8rem", textAlign: "start"}}> */}
